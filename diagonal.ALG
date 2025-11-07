@@ -2,7 +2,7 @@ Algoritmo "Retângulo"
 
 Var
 
-base, altura : inteiro
+base, altura, area : inteiro
 diagonal: real
 
 Inicio
@@ -14,6 +14,11 @@ Inicio
   
  diagonal <- raizq ( exp(base,2) + exp(altura,2) )
 
- escreva("DIAGONAL = ",diagonal:2:2)
+ escreval
+ escreval("DIAGONAL = ",diagonal:2:2)
+ 
+ area <- base * altura
+ 
+ escreval("ÁREA = ",area:2:2)
 
 Fimalgoritmo
