@@ -2,7 +2,7 @@ Algoritmo "Retângulo"
 
 Var
 
-base, altura, area : inteiro
+base, altura, area, perimetro : inteiro
 diagonal: real
 
 Inicio
@@ -20,5 +20,9 @@ Inicio
  area <- base * altura
  
  escreval("ÁREA = ",area:2:2)
+ 
+ perimetro <- 2*base + 2*altura
+ 
+ escreval("PERÍMETRO = ",perimetro:2:2)
 
 Fimalgoritmo
