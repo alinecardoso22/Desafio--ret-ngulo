@@ -21,7 +21,7 @@ Inicio
  
  escreval("ÁREA = ",area:2:2)
  
- perimetro <- 2*base + 2*altura + 10
+ perimetro <- 2*base + 2*altura + 50
  
  escreval("PERÍMETRO = ",perimetro:2:2)
 
