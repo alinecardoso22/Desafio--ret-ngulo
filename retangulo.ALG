@@ -1,4 +1,4 @@
-Algoritmo "Ret‚ngulo"
+Algoritmo "Ret√¢ngulo"
 
 Var
 
@@ -7,9 +7,9 @@ diagonal: real
 
 Inicio
 
- escreva("Digite o valor da base do ret‚ngulo: ")
+ escreva("Digite o valor da base do ret√¢ngulo: ")
   leia(base)
- escreva("Digite o valor da altura do ret‚ngulo: ")
+ escreva("Digite o valor da altura do ret√¢ngulo: ")
   leia(altura)
   
  diagonal <- raizq ( exp(base,2) + exp(altura,2) )
@@ -19,10 +19,10 @@ Inicio
  
  area <- base * altura
  
- escreval("¡REA = ",area:2:2)
+ escreval("√ÅREA = ",area:2:2)
  
- perimetro <- 2*base + 2*altura
+ perimetro <- 2*base + 2*base
  
- escreval("PERÕMETRO = ",perimetro:2:2)
+ escreval("PER√çMETRO = ",perimetro:2:2)
 
 Fimalgoritmo
